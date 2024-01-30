@@ -26,7 +26,7 @@ video.heroimg:hover {
   filter: blur(0px);
 }
 
-img.heroimg-2 {
+video.heroimg-2 {
   width: 100%;
   height: 40vh;
   object-fit: cover;
@@ -70,10 +70,11 @@ a.boxes img {
   width: 100%;
   object-fit: cover;
   transition: 0.2s;
+  transform: scale(140%);
 }
 
 a.boxes:hover img {
-  transform: scale(110%);
+  transform: scale(150%);
 }
 
 a.boxes h3 {
@@ -160,7 +161,6 @@ a.logo img {
 }
 
 div.headtext {
-  position: fixed;
   gap: 40px;
   display: flex;
 }
@@ -178,4 +178,25 @@ div.headtext a:hover {
 
 .menu {
   height: 70%;
+}
+
+div.games-grid {
+  height: 100px;
+}
+
+div.gamebox {
+  height: 200px;
+  width: 70%;
+  display: flex;
+}
+div.gamebox img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+div.gamebox button {
+  color: rgb(52, 52, 52);
+  background-color: rgb(12, 181, 12);
+  font-family: "Poppins";
+  font-weight: 7px;
 }
